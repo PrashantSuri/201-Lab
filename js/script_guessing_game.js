@@ -3,7 +3,6 @@ var questions = ["Do I live in Hyderabad?", "Do I work for Amazon?", "Do I like 
 var answers = ["y", "y", "n", "n", "y"];
 var correct = 0;
 var i = 0;
-alert(answers[2]);
 alert("Welcome! Let's play a guessing game so that you can know me better. All Questions have to be answered in Y/N");
 for (i=0;i<questions.length;i++) {
     var answer = prompt(questions[i]);
